@@ -1,5 +1,6 @@
 //To find all issues that haven't been updated in x days, where the assignee is an inactive account, 
 //And then reset those issues to unassigned.
+// Source : https://answers.atlassian.com/questions/39153072/scriptrunner-to-clear-all-inactive-assignees-wo-updating-issues
 
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.index.IssueIndexManager
